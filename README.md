@@ -1,5 +1,6 @@
 # lofi-bytes
 
+Hello!
 Goal of the project: to create a web app where users can generate their own lofi and game beats to study/chill to!
 
 ## Usage
