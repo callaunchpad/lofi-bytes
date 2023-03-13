@@ -1,8 +1,9 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# dependencies
-/app/node_modules
-/venv
+# data
+/lstm/data/
+/lstm/models/
+.ipynb_checkpoints
 
 # misc
 .DS_Store
@@ -11,9 +12,3 @@
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Next.js
-/app/.next
