@@ -5,6 +5,14 @@
 /lstm/models/
 .ipynb_checkpoints
 
+# dataset
+/music-transformer/MusicTransformer-Pytorch/dataset
+*.zip
+/music-transformer/MusicTransformer-Pytorch/__pycache__
+*.sf2
+/music-transformer/MusicTransformer-Pytorch/model/__pycache__/
+/music-transformer/MusicTransformer-Pytorch/utilities/__pycache__/
+
 # misc
 .DS_Store
 .env.local
