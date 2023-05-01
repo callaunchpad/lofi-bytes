@@ -136,11 +136,14 @@ def main():
 
     ##### TRAIN LOOP #####
     
+    ##### FINETUNING #####
     ## FREEZE ALL LAYERS EXCEPT LAST ONE FOR FINETUNING
     # Freeze all the layers except the final one
+
     for param in model.parameters():
         param.requires_grad = False
-    for param in model.decoder[-1].parameters():
+    
+    for param in model.transformer.encoder.layers[-1].parameters():
         param.requires_grad = True
 
     for epoch in range(start_epoch, args.epochs):
